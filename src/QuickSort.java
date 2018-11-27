@@ -14,7 +14,7 @@ JESSE HAN
     public static int partition(int[] arr, int left, int right) {
         int pivot = arr[right];
         int i = left - 1;
-        for (int j = left; j <= right; j ++) {
+        for (int j = left; j < right; j ++) {
             if (arr[j] <= pivot) {
                 i ++;
                 int k = arr[i];

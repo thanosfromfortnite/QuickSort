@@ -7,8 +7,8 @@ public class Runner {
             System.out.println(array[i]);
         }
 
-        QuickSort.quickSort(array, 0, 6);
-
+        QuickSort.quickSort(array, 0, 7);
+        System.out.println("Sorted!");
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
